@@ -1,0 +1,9 @@
+node_modules/
+dist/
+output/
+.env
+.theophany_token.json
+.theophany_state.json
+*.mp4
+*.mp3
+*.png

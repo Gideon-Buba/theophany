@@ -1,0 +1,30 @@
+{
+  "name": "theophany",
+  "version": "1.0.0",
+  "description": "Automated theology/scripture video pipeline for YouTube",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "auth": "tsx src/auth.ts",
+    "dry-run": "tsx src/dryRun.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.11.0",
+    "googleapis": "^140.0.1",
+    "groq-sdk": "^0.7.0",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
